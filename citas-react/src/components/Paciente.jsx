@@ -3,14 +3,12 @@ function Paciente({paciente, setPaciente, eliminarPaciente}){
     const { nombre, propietario, email, fecha, sintomas, id } = paciente;
 
     const handleEliminar = () => {
-        const respuesta = confirm('¿Deseas eliminar este pacinte?');
+        const respuesta = confirm(`¿Deseas eliminar el paciente ${nombre}?`);
 
         if(respuesta){
             eliminarPaciente(id)
         }
     };
-
-
 
     return(
         <div className="mx-5 my-10  bg-white shadow-md px-5 py-10 rounded-xl ">

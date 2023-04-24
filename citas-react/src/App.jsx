@@ -27,7 +27,7 @@ function App() {
       return paciente.id !== id;
     })
 
-    console.log(pacientesActualizados);
+    setPacientes(pacientesLocalStorage);
   };
 
   return (

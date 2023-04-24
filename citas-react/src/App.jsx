@@ -15,19 +15,19 @@ function App() {
       const pacientesLocalStorage = JSON.parse(localStorage.getItem('pacientes')) ?? [];
       setPacientes(pacientesLocalStorage);
     }
+    obtenerLocalStorage();
   }, []);
 
   useEffect( () => {
-    localStorage.setItem('pacientes', JSON.stringify(pacientes));
+    localStorage.setItem('pacientes', JSON.stringify( pacientes ));
   }, [pacientes])
 
 
   const eliminarPaciente = (id) => {
-    const pacientesActualizados = pacientes.filter( (paciente) => {
+    const pacientesActualizados = pacientes.filter( ( paciente ) => {
       return paciente.id !== id;
     })
-
-    setPacientes(pacientesLocalStorage);
+    setPacientes( pacientesActualizados );
   };
 
   return (

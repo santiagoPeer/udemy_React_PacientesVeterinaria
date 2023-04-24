@@ -3,6 +3,10 @@ Repositorio del curso React - la guia completa, del instructor Juan de la Torre
 
 Cambios en el repositorio santiagoPeer
 
+## Live site
+
+(Link al sitio)[https://6446b193d0222705d89d7f72--curious-dolphin-dbf480.netlify.app/]
+
 ## Recuento de lo que voy haciendo
 
 

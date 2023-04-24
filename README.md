@@ -5,7 +5,7 @@ Cambios en el repositorio santiagoPeer
 
 ## Live site
 
-(Link al sitio)[https://6446b193d0222705d89d7f72--curious-dolphin-dbf480.netlify.app/]
+[Link al sitio](https://6446b193d0222705d89d7f72--curious-dolphin-dbf480.netlify.app/)
 
 ## Recuento de lo que voy haciendo
 

@@ -16,7 +16,7 @@ function App() {
       setPacientes(pacientesLocalStorage);
     }
     obtenerLocalStorage();
-  }, [pacientes]);
+  }, []);
 
   useEffect( () => {
     localStorage.setItem('pacientes', JSON.stringify( pacientes ));
